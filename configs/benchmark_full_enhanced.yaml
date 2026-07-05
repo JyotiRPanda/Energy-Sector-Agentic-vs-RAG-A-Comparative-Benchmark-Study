@@ -1,0 +1,24 @@
+datasets:
+  - path: data/benchmark/one-table/gri-qa_extra.csv
+    split: single_table_extractive
+  - path: data/benchmark/one-table/gri-qa_rel.csv
+    split: single_table_relational
+  - path: data/benchmark/one-table/gri-qa_quant.csv
+    split: single_table_quantitative
+  - path: data/benchmark/one-table/gri-qa_multistep.csv
+    split: single_table_multistep
+  - path: data/benchmark/multi-table/gri-qa_multitable2-rel.csv
+    split: multi_table_relational
+  - path: data/benchmark/multi-table/gri-qa_multitable2-quant.csv
+    split: multi_table_quantitative
+  - path: data/benchmark/multi-table/gri-qa_multitable2-multistep.csv
+    split: multi_table_multistep
+
+pipelines:
+  - traditional_rag
+  - agentic_multi_tool_enhanced
+
+strict_mode: true
+corpus_path: data/corpus/benchmark_corpus_full.jsonl
+
+output_dir: results/full_enhanced

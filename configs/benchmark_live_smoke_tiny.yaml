@@ -1,0 +1,16 @@
+datasets:
+  - path: data/benchmark/one-table/gri-qa_quant.csv
+    split: single_table_quantitative
+    max_samples: 2
+  - path: data/benchmark/multi-table/gri-qa_multitable2-rel.csv
+    split: multi_table_relational
+    max_samples: 2
+
+pipelines:
+  - traditional_rag
+  - agentic_multi_tool
+
+strict_mode: true
+corpus_path: data/corpus/benchmark_corpus_full.jsonl
+
+output_dir: results/live_smoke_tiny

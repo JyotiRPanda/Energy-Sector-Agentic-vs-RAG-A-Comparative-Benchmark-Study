@@ -1,0 +1,13 @@
+# Quantitative subset validation
+datasets:
+  - path: data/benchmark/one-table/gri-qa_quant.csv
+    split: single_table_quantitative
+
+pipelines:
+  - traditional_rag
+  - agentic_multi_tool
+
+strict_mode: true
+corpus_path: data/corpus/benchmark_corpus.jsonl
+
+output_dir: results/quantitative_only

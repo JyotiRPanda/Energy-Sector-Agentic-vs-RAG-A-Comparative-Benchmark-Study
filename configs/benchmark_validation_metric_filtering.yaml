@@ -1,0 +1,25 @@
+benchmark_name: "validation_quantitative_metric_filtering"
+description: "Validate metric filtering in operand selection for quantitative questions"
+
+# Use live agentic models
+use_live_models: true
+
+# Test on quantitative questions (266 total, using ~20 for validation)
+splits:
+  - "one_table_quantitative"
+
+# Test both old and new (with metric filtering)
+algorithms:
+  agentic_with_metric_filtering:
+    type: "agentic"
+    retriever_type: "row_joining"
+    use_domain_aware_retrieval: true
+    use_table_aware_grounding: true
+    # Metric filtering is now built into select_operands_table_aware()
+    
+metrics:
+  - exact_match
+  - faithfulness
+
+# Output directory
+results_dir: "results/validation"

@@ -1,0 +1,23 @@
+# Small batch validation - 50 samples, mixed task types
+datasets:
+  - path: data/benchmark/one-table/gri-qa_extra.csv
+    split: single_table_extractive
+    limit: 15
+  - path: data/benchmark/one-table/gri-qa_quant.csv
+    split: single_table_quantitative
+    limit: 15
+  - path: data/benchmark/one-table/gri-qa_multistep.csv
+    split: single_table_multistep
+    limit: 12
+  - path: data/benchmark/one-table/gri-qa_rel.csv
+    split: single_table_relational
+    limit: 8
+
+pipelines:
+  - traditional_rag
+  - agentic_multi_tool
+
+strict_mode: true
+corpus_path: data/corpus/benchmark_corpus.jsonl
+
+output_dir: results/small_batch_50

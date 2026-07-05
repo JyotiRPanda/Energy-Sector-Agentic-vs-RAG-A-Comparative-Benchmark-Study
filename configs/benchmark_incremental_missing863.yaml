@@ -1,0 +1,24 @@
+datasets:
+  - path: data/dataset/multi-table/gri-qa_multitable3-rel.csv
+    split: multitable3_relational
+  - path: data/dataset/multi-table/gri-qa_multitable3-quant.csv
+    split: multitable3_quantitative
+  - path: data/dataset/multi-table/gri-qa_multitable3-multistep.csv
+    split: multitable3_multistep
+  - path: data/dataset/multi-table/gri-qa_multitable5-rel.csv
+    split: multitable5_relational
+  - path: data/dataset/multi-table/gri-qa_multitable5-quant.csv
+    split: multitable5_quantitative
+  - path: data/dataset/multi-table/gri-qa_multitable5-multistep.csv
+    split: multitable5_multistep
+
+pipelines:
+  - traditional_rag
+  - agentic_multi_tool
+
+strict_mode: true
+corpus_path: data/corpus/benchmark_corpus_all13.jsonl
+use_live_models: true
+progress_interval: 1
+
+output_dir: results/incremental_missing863

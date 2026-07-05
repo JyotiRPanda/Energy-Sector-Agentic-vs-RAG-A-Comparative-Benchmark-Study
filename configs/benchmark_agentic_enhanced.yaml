@@ -1,0 +1,28 @@
+datasets:
+  - path: data/benchmark/one-table/gri-qa_extra.csv
+    split: single_table_extractive
+  - path: data/benchmark/one-table/gri-qa_rel.csv
+    split: single_table_relational
+  - path: data/benchmark/one-table/gri-qa_quant.csv
+    split: single_table_quantitative
+  - path: data/benchmark/multi-table/gri-qa_multitable2-multistep.csv
+    split: multi_table_multistep
+
+pipelines:
+  - traditional_rag
+  - agentic_multi_tool
+  - agentic_multi_tool_enhanced
+
+strict_mode: true
+corpus_path: data/corpus/benchmark_corpus.jsonl
+
+output_dir: results
+
+# Pipeline-specific options for enhanced agentic
+pipeline_options:
+  agentic_multi_tool_enhanced:
+    enable_routing: true
+    enable_verification: true
+    enable_retry: true
+    enable_calculation: true
+    max_retries: 1

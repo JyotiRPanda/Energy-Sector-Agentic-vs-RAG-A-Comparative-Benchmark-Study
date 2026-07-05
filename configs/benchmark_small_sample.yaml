@@ -1,0 +1,38 @@
+# Small controlled evaluation: 20 samples per dataset (~100 total)
+# Used for rapid iteration and signal checking before full runs
+
+datasets:
+  - path: data/benchmark/one-table/gri-qa_extra.csv
+    split: single_table_extractive
+    max_samples: 20
+
+  - path: data/benchmark/one-table/gri-qa_rel.csv
+    split: single_table_relational
+    max_samples: 20
+
+  - path: data/benchmark/one-table/gri-qa_quant.csv
+    split: single_table_quantitative
+    max_samples: 20
+
+  - path: data/benchmark/multi-table/gri-qa_multitable2-multistep.csv
+    split: multi_table_multistep
+    max_samples: 20
+
+pipelines:
+  - traditional_rag
+  - agentic_multi_tool
+  - agentic_multi_tool_enhanced
+
+strict_mode: true
+corpus_path: data/corpus/benchmark_corpus.jsonl
+
+output_dir: results/small_sample
+
+# Pipeline-specific options for enhanced agentic
+pipeline_options:
+  agentic_multi_tool_enhanced:
+    enable_routing: true
+    enable_verification: true
+    enable_retry: true
+    enable_calculation: true
+    max_retries: 1

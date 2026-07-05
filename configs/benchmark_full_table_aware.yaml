@@ -1,0 +1,23 @@
+datasets:
+  - path: data/benchmark/one-table/gri-qa_quant.csv
+    split: test
+  - path: data/benchmark/one-table/gri-qa_multistep.csv
+    split: test
+  - path: data/benchmark/one-table/gri-qa_rel.csv
+    split: test
+  - path: data/benchmark/multi-table/gri-qa_multitable2-quant.csv
+    split: test
+  - path: data/benchmark/multi-table/gri-qa_multitable2-multistep.csv
+    split: test
+  - path: data/benchmark/multi-table/gri-qa_multitable2-rel.csv
+    split: test
+
+pipelines:
+  - traditional_rag
+  - agentic_table_aware
+
+output_dir: results/full_table_aware
+corpus_path: data/corpus/benchmark_corpus_full.jsonl
+strict_mode: true
+domain_aware_retrieval: false
+use_live_models: false
