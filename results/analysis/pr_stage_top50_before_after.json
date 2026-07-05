@@ -1,0 +1,912 @@
+{
+  "top50_ids": [
+    "single_table_extractive-1693",
+    "single_table_extractive-1695",
+    "single_table_extractive-1698",
+    "single_table_extractive-1696",
+    "single_table_extractive-1697",
+    "single_table_extractive-1691",
+    "single_table_extractive-1692",
+    "single_table_extractive-1694",
+    "single_table_extractive-1689",
+    "single_table_extractive-178",
+    "single_table_extractive-1690",
+    "single_table_extractive-1770",
+    "multi_table_multistep-56",
+    "multi_table_quantitative-1",
+    "single_table_extractive-1602",
+    "multi_table_multistep-4",
+    "multi_table_multistep-162",
+    "multi_table_multistep-149",
+    "multi_table_multistep-126",
+    "single_table_extractive-1686",
+    "single_table_extractive-1687",
+    "single_table_extractive-205",
+    "multi_table_quantitative-36",
+    "multi_table_quantitative-9",
+    "multi_table_quantitative-55",
+    "multi_table_multistep-184",
+    "single_table_extractive-1772",
+    "single_table_extractive-1791",
+    "single_table_extractive-1092",
+    "single_table_extractive-1768",
+    "single_table_extractive-691",
+    "single_table_extractive-1789",
+    "single_table_extractive-745",
+    "single_table_extractive-1766",
+    "single_table_extractive-1014",
+    "single_table_extractive-1011",
+    "single_table_extractive-1016",
+    "multi_table_quantitative-2",
+    "single_table_extractive-1013",
+    "single_table_extractive-1097",
+    "single_table_extractive-179",
+    "multi_table_multistep-48",
+    "single_table_extractive-1010",
+    "single_table_extractive-1788",
+    "single_table_extractive-774",
+    "single_table_extractive-1683",
+    "single_table_extractive-1681",
+    "single_table_extractive-1682",
+    "single_table_extractive-1063",
+    "single_table_extractive-1680"
+  ],
+  "summary": {
+    "baseline_old_metric": {
+      "count": 50,
+      "mean": 4862337.683801424,
+      "median": 308287.7894113264
+    },
+    "stageA_pipeline_old_metric": {
+      "count": 33,
+      "mean": 316922.8992850249,
+      "median": 109630.20714285714
+    },
+    "baseline_new_metric_recomputed": {
+      "count": 50,
+      "mean": 1.9999812129275956,
+      "median": 1.9999877847288339
+    },
+    "stageB_pipeline_plus_new_metric": {
+      "count": 33,
+      "mean": 1.8983158967342137,
+      "median": 1.9999701135598515
+    },
+    "stageA_improved_count_old_metric": 11,
+    "stageA_worse_count_old_metric": 0
+  },
+  "per_id": [
+    {
+      "question_id": "single_table_extractive-1693",
+      "question": "What is the percentage of surface water in total water consumption for the year 2023?",
+      "gold_answer": "0.1",
+      "before_answer": "6380652",
+      "after_answer": "1.2878",
+      "before_nre_old": 63806519.0,
+      "after_nre_old": 11.877999999999998,
+      "before_nre_new": 1.9999999373104829,
+      "after_nre_new": 1.7117740308401785,
+      "final_answer_source_after": "initial",
+      "ratio_scale_guard_after": {
+        "triggered": true,
+        "reason": "derived_ratio_from_candidates"
+      },
+      "expected_table_constraint_after": null
+    },
+    {
+      "question_id": "single_table_extractive-1695",
+      "question": "How much of the total water consumption was rainwater in percentage for the year 2020?",
+      "gold_answer": "0.1",
+      "before_answer": "6040824",
+      "after_answer": "52.9562",
+      "before_nre_old": 60408239.0,
+      "after_nre_old": 528.562,
+      "before_nre_new": 1.9999999337838692,
+      "after_nre_new": 1.9924608245596178,
+      "final_answer_source_after": "initial",
+      "ratio_scale_guard_after": {
+        "triggered": true,
+        "reason": "derived_ratio_from_candidates"
+      },
+      "expected_table_constraint_after": null
+    },
+    {
+      "question_id": "single_table_extractive-1698",
+      "question": "What is the percentage of rainwater in total water consumption for the year 2023?",
+      "gold_answer": "0.2",
+      "before_answer": "6380652",
+      "after_answer": "1.2878",
+      "before_nre_old": 31903258.999999996,
+      "after_nre_old": 5.439,
+      "before_nre_new": 1.9999998746209673,
+      "after_nre_new": 1.4622933189944887,
+      "final_answer_source_after": "initial",
+      "ratio_scale_guard_after": {
+        "triggered": true,
+        "reason": "derived_ratio_from_candidates"
+      },
+      "expected_table_constraint_after": null
+    },
+    {
+      "question_id": "single_table_extractive-1696",
+      "question": "What was the percentage of rainwater in total water consumption in 2021?",
+      "gold_answer": "0.3",
+      "before_answer": "6476955",
+      "after_answer": "INSUFFICIENT_CONTEXT",
+      "before_nre_old": 21589849.0,
+      "after_nre_old": null,
+      "before_nre_new": 1.9999998147277627,
+      "after_nre_new": null,
+      "final_answer_source_after": "initial",
+      "ratio_scale_guard_after": {
+        "triggered": true,
+        "reason": "blocked_absolute_value_for_ratio_question"
+      },
+      "expected_table_constraint_after": null
+    },
+    {
+      "question_id": "single_table_extractive-1697",
+      "question": "What percentage of the total water consumption was rainwater in 2022?",
+      "gold_answer": "0.3",
+      "before_answer": "6295990",
+      "after_answer": "INSUFFICIENT_CONTEXT",
+      "before_nre_old": 20986632.333333336,
+      "after_nre_old": null,
+      "before_nre_new": 1.999999809402502,
+      "after_nre_new": null,
+      "final_answer_source_after": "initial",
+      "ratio_scale_guard_after": {
+        "triggered": true,
+        "reason": "blocked_absolute_value_for_ratio_question"
+      },
+      "expected_table_constraint_after": null
+    },
+    {
+      "question_id": "single_table_extractive-1691",
+      "question": "What was the percentage of surface water in total water consumption in 2021?",
+      "gold_answer": "0",
+      "before_answer": "6476955",
+      "after_answer": "INSUFFICIENT_CONTEXT",
+      "before_nre_old": 6476955.0,
+      "after_nre_old": null,
+      "before_nre_new": 2.0,
+      "after_nre_new": null,
+      "final_answer_source_after": "initial",
+      "ratio_scale_guard_after": {
+        "triggered": true,
+        "reason": "blocked_absolute_value_for_ratio_question"
+      },
+      "expected_table_constraint_after": null
+    },
+    {
+      "question_id": "single_table_extractive-1692",
+      "question": "What percentage of the total water consumption was surface water in 2022?",
+      "gold_answer": "0",
+      "before_answer": "6295990",
+      "after_answer": "INSUFFICIENT_CONTEXT",
+      "before_nre_old": 6295990.0,
+      "after_nre_old": null,
+      "before_nre_new": 2.0,
+      "after_nre_new": null,
+      "final_answer_source_after": "initial",
+      "ratio_scale_guard_after": {
+        "triggered": true,
+        "reason": "blocked_absolute_value_for_ratio_question"
+      },
+      "expected_table_constraint_after": null
+    },
+    {
+      "question_id": "single_table_extractive-1694",
+      "question": "What percentage of the total water consumption was rainwater in 2019?",
+      "gold_answer": "0",
+      "before_answer": "5226227",
+      "after_answer": "0.8233",
+      "before_nre_old": 5226227.0,
+      "after_nre_old": 0.8233,
+      "before_nre_new": 2.0,
+      "after_nre_new": 2.0,
+      "final_answer_source_after": "initial",
+      "ratio_scale_guard_after": {
+        "triggered": true,
+        "reason": "derived_ratio_from_candidates"
+      },
+      "expected_table_constraint_after": null
+    },
+    {
+      "question_id": "single_table_extractive-1689",
+      "question": "What percentage of the total water consumption was surface water in 2019?",
+      "gold_answer": "0",
+      "before_answer": "5226227",
+      "after_answer": "0.8233",
+      "before_nre_old": 5226227.0,
+      "after_nre_old": 0.8233,
+      "before_nre_new": 2.0,
+      "after_nre_new": 2.0,
+      "final_answer_source_after": "initial",
+      "ratio_scale_guard_after": {
+        "triggered": true,
+        "reason": "derived_ratio_from_candidates"
+      },
+      "expected_table_constraint_after": null
+    },
+    {
+      "question_id": "single_table_extractive-178",
+      "question": "What is the total weight of high-level radioactive waste generated in 2023 in metric tons?",
+      "gold_answer": "0",
+      "before_answer": "5049144",
+      "after_answer": "5049144",
+      "before_nre_old": 5049144.0,
+      "after_nre_old": 5049144.0,
+      "before_nre_new": 2.0,
+      "after_nre_new": 2.0,
+      "final_answer_source_after": "initial",
+      "ratio_scale_guard_after": null,
+      "expected_table_constraint_after": null
+    },
+    {
+      "question_id": "single_table_extractive-1690",
+      "question": "How much of the total water consumption was surface water in percentage for the year 2020?",
+      "gold_answer": "0",
+      "before_answer": "4946865",
+      "after_answer": "0.8189",
+      "before_nre_old": 4946865.0,
+      "after_nre_old": 0.8189,
+      "before_nre_new": 2.0,
+      "after_nre_new": 2.0,
+      "final_answer_source_after": "initial",
+      "ratio_scale_guard_after": {
+        "triggered": true,
+        "reason": "derived_ratio_from_candidates"
+      },
+      "expected_table_constraint_after": null
+    },
+    {
+      "question_id": "single_table_extractive-1770",
+      "question": "What percentage of CO2e emissions was attributed to rail transport in 2023?",
+      "gold_answer": "5.2",
+      "before_answer": "6380652",
+      "after_answer": "INSUFFICIENT_CONTEXT",
+      "before_nre_old": 1227047.4615384615,
+      "after_nre_old": null,
+      "before_nre_new": 1.9999967401477075,
+      "after_nre_new": null,
+      "final_answer_source_after": "initial",
+      "ratio_scale_guard_after": {
+        "triggered": true,
+        "reason": "blocked_absolute_value_for_ratio_question"
+      },
+      "expected_table_constraint_after": null
+    },
+    {
+      "question_id": "multi_table_multistep-56",
+      "question": "What is the highest water consumption calculated as the average of the 2023 and 2022 consumption for the following companies in million cubic meters?",
+      "gold_answer": "6.72",
+      "before_answer": "4944652.5",
+      "after_answer": "INSUFFICIENT_CONTEXT",
+      "before_nre_old": 735810.3839285715,
+      "after_nre_old": null,
+      "before_nre_new": 1.9999945638316408,
+      "after_nre_new": null,
+      "final_answer_source_after": "initial",
+      "ratio_scale_guard_after": null,
+      "expected_table_constraint_after": null
+    },
+    {
+      "question_id": "multi_table_quantitative-1",
+      "question": "What is the average amount of GHG emissions Scope 2 in 2022 among the following companies in million mt CO2e?",
+      "gold_answer": "0.05",
+      "before_answer": "33063.6",
+      "after_answer": "0.05 million mt CO2e.",
+      "before_nre_old": 661270.9999999999,
+      "after_nre_old": 0.0,
+      "before_nre_new": 1.9999939510610591,
+      "after_nre_new": 0.0,
+      "final_answer_source_after": "gpt_multi_table_tool",
+      "ratio_scale_guard_after": {
+        "triggered": false,
+        "reason": null
+      },
+      "expected_table_constraint_after": {
+        "expected_table_id": "0",
+        "matched_count": 5,
+        "reordered": true
+      }
+    },
+    {
+      "question_id": "single_table_extractive-1602",
+      "question": "What are the maximum and minimum fuel consumption (in l/100 km) for the BMW M3 CS?",
+      "gold_answer": "10.4 - 10.1",
+      "before_answer": "6348009",
+      "after_answer": "6348009",
+      "before_nre_old": 610384.4807692308,
+      "after_nre_old": 610384.4807692308,
+      "before_nre_new": 1.9999934467749103,
+      "after_nre_new": 1.9999934467749103,
+      "final_answer_source_after": "initial",
+      "ratio_scale_guard_after": null,
+      "expected_table_constraint_after": null
+    },
+    {
+      "question_id": "multi_table_multistep-4",
+      "question": "Which company has the lowest total energy consumption over the last 2 years among the following companies in GWh?",
+      "gold_answer": "prosiebensat1-media",
+      "before_answer": "564614",
+      "after_answer": "564614",
+      "before_nre_old": 564613.0,
+      "after_nre_old": 564613.0,
+      "before_nre_new": 1.9999929155265093,
+      "after_nre_new": 1.9999929155265093,
+      "final_answer_source_after": "calculation",
+      "ratio_scale_guard_after": {
+        "triggered": false,
+        "reason": null
+      },
+      "expected_table_constraint_after": {
+        "expected_table_id": "1",
+        "matched_count": 1,
+        "reordered": true
+      }
+    },
+    {
+      "question_id": "multi_table_multistep-162",
+      "question": "Which companies have the top 2 highest values of average energy consumed in the last 2 years (sorted in descending order) among the following companies in GWh?",
+      "gold_answer": "munich-re, prosiebensat1-media",
+      "before_answer": "564614",
+      "after_answer": "564614",
+      "before_nre_old": 564613.0,
+      "after_nre_old": 564613.0,
+      "before_nre_new": 1.9999929155265093,
+      "after_nre_new": 1.9999929155265093,
+      "final_answer_source_after": "calculation",
+      "ratio_scale_guard_after": {
+        "triggered": false,
+        "reason": null
+      },
+      "expected_table_constraint_after": {
+        "expected_table_id": "1",
+        "matched_count": 1,
+        "reordered": true
+      }
+    },
+    {
+      "question_id": "multi_table_multistep-149",
+      "question": "Which companies have the top 2 highest values of average energy consumed in the last 2 years (sorted in ascending order) among the following companies in MWh?",
+      "gold_answer": "prosiebensat1-media, OTC_SU",
+      "before_answer": "564614",
+      "after_answer": "564614",
+      "before_nre_old": 564613.0,
+      "after_nre_old": 564613.0,
+      "before_nre_new": 1.9999929155265093,
+      "after_nre_new": 1.9999929155265093,
+      "final_answer_source_after": "calculation",
+      "ratio_scale_guard_after": {
+        "triggered": false,
+        "reason": null
+      },
+      "expected_table_constraint_after": {
+        "expected_table_id": "1",
+        "matched_count": 1,
+        "reordered": true
+      }
+    },
+    {
+      "question_id": "multi_table_multistep-126",
+      "question": "What is the highest water consumption calculated as the average of the 2023 and 2022 consumption for the following companies in millions of cu.m?",
+      "gold_answer": "10.2",
+      "before_answer": "4944652.5",
+      "after_answer": "INSUFFICIENT_CONTEXT",
+      "before_nre_old": 484768.8529411765,
+      "after_nre_old": null,
+      "before_nre_new": 1.9999917486788328,
+      "after_nre_new": null,
+      "final_answer_source_after": "initial",
+      "ratio_scale_guard_after": null,
+      "expected_table_constraint_after": null
+    },
+    {
+      "question_id": "single_table_extractive-1686",
+      "question": "What was the percentage of groundwater in total water consumption in 2021?",
+      "gold_answer": "14.6",
+      "before_answer": "6476955",
+      "after_answer": "INSUFFICIENT_CONTEXT",
+      "before_nre_old": 443626.0547945206,
+      "after_nre_old": null,
+      "before_nre_new": 1.999990983437687,
+      "after_nre_new": null,
+      "final_answer_source_after": "initial",
+      "ratio_scale_guard_after": {
+        "triggered": true,
+        "reason": "blocked_absolute_value_for_ratio_question"
+      },
+      "expected_table_constraint_after": null
+    },
+    {
+      "question_id": "single_table_extractive-1687",
+      "question": "What percentage of the total water consumption was groundwater in 2022?",
+      "gold_answer": "15.7",
+      "before_answer": "6295990",
+      "after_answer": "INSUFFICIENT_CONTEXT",
+      "before_nre_old": 401017.4713375796,
+      "after_nre_old": null,
+      "before_nre_new": 1.999990025421991,
+      "after_nre_new": null,
+      "final_answer_source_after": "initial",
+      "ratio_scale_guard_after": {
+        "triggered": true,
+        "reason": "blocked_absolute_value_for_ratio_question"
+      },
+      "expected_table_constraint_after": null
+    },
+    {
+      "question_id": "single_table_extractive-205",
+      "question": "What is the water consumption per person in 2019?",
+      "gold_answer": "6.9",
+      "before_answer": "2653855",
+      "after_answer": "2653855",
+      "before_nre_old": 384615.6666666667,
+      "after_nre_old": 384615.6666666667,
+      "before_nre_new": 1.9999896000617063,
+      "after_nre_new": 1.9999896000617063,
+      "final_answer_source_after": "initial",
+      "ratio_scale_guard_after": null,
+      "expected_table_constraint_after": null
+    },
+    {
+      "question_id": "multi_table_quantitative-36",
+      "question": "What is the average of total water consumption in the years 2023 and 2022 among the following companies in millions of m3?",
+      "gold_answer": "20.38",
+      "before_answer": "7625243.59",
+      "after_answer": "7625243.59",
+      "before_nre_old": 374152.2674190383,
+      "after_nre_old": 374152.2674190383,
+      "before_nre_new": 1.9999893092225633,
+      "after_nre_new": 1.9999893092225633,
+      "final_answer_source_after": "multi_table_structured_join",
+      "ratio_scale_guard_after": {
+        "triggered": false,
+        "reason": null
+      },
+      "expected_table_constraint_after": {
+        "expected_table_id": "0",
+        "matched_count": 6,
+        "reordered": true
+      }
+    },
+    {
+      "question_id": "multi_table_quantitative-9",
+      "question": "What is the average amount of GHG emissions Scope 2 in 2023 among the following companies in million mt CO2e?",
+      "gold_answer": "0.1",
+      "before_answer": "33063.6",
+      "after_answer": "33063.6",
+      "before_nre_old": 330635.0,
+      "after_nre_old": 330635.0,
+      "before_nre_new": 1.9999879021404139,
+      "after_nre_new": 1.9999879021404139,
+      "final_answer_source_after": "multi_table_structured_join",
+      "ratio_scale_guard_after": {
+        "triggered": false,
+        "reason": null
+      },
+      "expected_table_constraint_after": {
+        "expected_table_id": "0",
+        "matched_count": 5,
+        "reordered": true
+      }
+    },
+    {
+      "question_id": "multi_table_quantitative-55",
+      "question": "What is the average of total water consumption in the years 2023 and 2022 among the following companies in millions of m3?",
+      "gold_answer": "23.51",
+      "before_answer": "7625243.59",
+      "after_answer": "7625243.59",
+      "before_nre_old": 324339.43343258183,
+      "after_nre_old": 324339.43343258183,
+      "before_nre_new": 1.9999876673172539,
+      "after_nre_new": 1.9999876673172539,
+      "final_answer_source_after": "multi_table_structured_join",
+      "ratio_scale_guard_after": {
+        "triggered": false,
+        "reason": null
+      },
+      "expected_table_constraint_after": {
+        "expected_table_id": "0",
+        "matched_count": 6,
+        "reordered": true
+      }
+    },
+    {
+      "question_id": "multi_table_multistep-184",
+      "question": "What is the average total water consumption across the following companies, calculated as the sum of their 2023 and 2022 consumption in millions of cu.m?",
+      "gold_answer": "16.92",
+      "before_answer": "4944652.5",
+      "after_answer": "INSUFFICIENT_CONTEXT",
+      "before_nre_old": 292236.1453900709,
+      "after_nre_old": null,
+      "before_nre_new": 1.9999863125329014,
+      "after_nre_new": null,
+      "final_answer_source_after": "initial",
+      "ratio_scale_guard_after": null,
+      "expected_table_constraint_after": null
+    },
+    {
+      "question_id": "single_table_extractive-1772",
+      "question": "What percentage of CO2e emissions was attributed to air transport in 2023?",
+      "gold_answer": "22.2",
+      "before_answer": "6380652",
+      "after_answer": "INSUFFICIENT_CONTEXT",
+      "before_nre_old": 287415.75675675675,
+      "after_nre_old": null,
+      "before_nre_new": 1.9999860829753695,
+      "after_nre_new": null,
+      "final_answer_source_after": "initial",
+      "ratio_scale_guard_after": {
+        "triggered": true,
+        "reason": "blocked_absolute_value_for_ratio_question"
+      },
+      "expected_table_constraint_after": null
+    },
+    {
+      "question_id": "single_table_extractive-1791",
+      "question": "What was the proportion in % of suppliers of production-related material with agreed preventive measures at the time of awarding in 2022?",
+      "gold_answer": "22",
+      "before_answer": "6295990",
+      "after_answer": "2.4764",
+      "before_nre_old": 286180.36363636365,
+      "after_nre_old": 0.8874363636363637,
+      "before_nre_new": 1.9999860228983044,
+      "after_nre_new": 1.5952999624127735,
+      "final_answer_source_after": "initial",
+      "ratio_scale_guard_after": {
+        "triggered": true,
+        "reason": "derived_ratio_from_candidates"
+      },
+      "expected_table_constraint_after": null
+    },
+    {
+      "question_id": "single_table_extractive-1092",
+      "question": "What is the target value for commercial emissions in kt CO2e/\u20ac mn GWP for the year 2030?",
+      "gold_answer": "0.14",
+      "before_answer": "31774",
+      "after_answer": "31774",
+      "before_nre_old": 226956.14285714284,
+      "after_nre_old": 226956.14285714284,
+      "before_nre_new": 1.9999823756048158,
+      "after_nre_new": 1.9999823756048158,
+      "final_answer_source_after": "initial",
+      "ratio_scale_guard_after": null,
+      "expected_table_constraint_after": null
+    },
+    {
+      "question_id": "single_table_extractive-1768",
+      "question": "What percentage of CO2e emissions was attributed to road transport in 2023?",
+      "gold_answer": "30.9",
+      "before_answer": "6380652",
+      "after_answer": "INSUFFICIENT_CONTEXT",
+      "before_nre_old": 206492.5922330097,
+      "after_nre_old": null,
+      "before_nre_new": 1.9999806290326696,
+      "after_nre_new": null,
+      "final_answer_source_after": "initial",
+      "ratio_scale_guard_after": {
+        "triggered": true,
+        "reason": "blocked_absolute_value_for_ratio_question"
+      },
+      "expected_table_constraint_after": null
+    },
+    {
+      "question_id": "single_table_extractive-691",
+      "question": "What was the value of Processing of sold products in 2023 in Mt CO2e?",
+      "gold_answer": "5",
+      "before_answer": "957429",
+      "after_answer": "957429",
+      "before_nre_old": 191484.8,
+      "after_nre_old": 191484.8,
+      "before_nre_new": 1.9999791108316605,
+      "after_nre_new": 1.9999791108316605,
+      "final_answer_source_after": "initial",
+      "ratio_scale_guard_after": null,
+      "expected_table_constraint_after": null
+    },
+    {
+      "question_id": "single_table_extractive-1789",
+      "question": "What proportion of suppliers of production-related material had agreed preventive measures at the time of awarding in 2023 in %?",
+      "gold_answer": "31",
+      "before_answer": "4954639",
+      "after_answer": "INSUFFICIENT_CONTEXT",
+      "before_nre_old": 159826.06451612903,
+      "after_nre_old": null,
+      "before_nre_new": 1.9999749731061807,
+      "after_nre_new": null,
+      "final_answer_source_after": "initial",
+      "ratio_scale_guard_after": {
+        "triggered": true,
+        "reason": "blocked_absolute_value_for_ratio_question"
+      },
+      "expected_table_constraint_after": null
+    },
+    {
+      "question_id": "single_table_extractive-745",
+      "question": "What was the amount of logistics-related GHG emissions in million t CO2e for the year 2019?",
+      "gold_answer": "33.2",
+      "before_answer": "5226227",
+      "after_answer": "5226227",
+      "before_nre_old": 157415.47590361445,
+      "after_nre_old": 157415.47590361445,
+      "before_nre_new": 1.9999745898606425,
+      "after_nre_new": 1.9999745898606425,
+      "final_answer_source_after": "initial",
+      "ratio_scale_guard_after": null,
+      "expected_table_constraint_after": null
+    },
+    {
+      "question_id": "single_table_extractive-1766",
+      "question": "What percentage of CO2e emissions was attributed to sea transport in 2023?",
+      "gold_answer": "41.7",
+      "before_answer": "6380652",
+      "after_answer": "INSUFFICIENT_CONTEXT",
+      "before_nre_old": 153012.23741007192,
+      "after_nre_old": null,
+      "before_nre_new": 1.9999738586417335,
+      "after_nre_new": null,
+      "final_answer_source_after": "initial",
+      "ratio_scale_guard_after": {
+        "triggered": true,
+        "reason": "blocked_absolute_value_for_ratio_question"
+      },
+      "expected_table_constraint_after": null
+    },
+    {
+      "question_id": "single_table_extractive-1014",
+      "question": "What was the number of on-site qualification checks for ESG objectives in 2022?",
+      "gold_answer": "13",
+      "before_answer": "1739906.5",
+      "after_answer": "1739906.5",
+      "before_nre_old": 133837.96153846153,
+      "after_nre_old": 133837.96153846153,
+      "before_nre_new": 1.9999701135598515,
+      "after_nre_new": 1.9999701135598515,
+      "final_answer_source_after": "initial",
+      "ratio_scale_guard_after": null,
+      "expected_table_constraint_after": null
+    },
+    {
+      "question_id": "single_table_extractive-1011",
+      "question": "How many on-site qualification checks were carried out in 2022?",
+      "gold_answer": "13",
+      "before_answer": "1739906.5",
+      "after_answer": "1739906.5",
+      "before_nre_old": 133837.96153846153,
+      "after_nre_old": 133837.96153846153,
+      "before_nre_new": 1.9999701135598515,
+      "after_nre_new": 1.9999701135598515,
+      "final_answer_source_after": "initial",
+      "ratio_scale_guard_after": null,
+      "expected_table_constraint_after": null
+    },
+    {
+      "question_id": "single_table_extractive-1016",
+      "question": "How many suppliers were revoked from the list in 2023?",
+      "gold_answer": "1",
+      "before_answer": "127345.5",
+      "after_answer": "127345.5",
+      "before_nre_old": 127344.5,
+      "after_nre_old": 127344.5,
+      "before_nre_new": 1.999968589635365,
+      "after_nre_new": 1.999968589635365,
+      "final_answer_source_after": "initial",
+      "ratio_scale_guard_after": null,
+      "expected_table_constraint_after": null
+    },
+    {
+      "question_id": "multi_table_quantitative-2",
+      "question": "What is the sum of GHG emissions Scope 2 in 2023 among the following companies in Million metric tons of CO2 equivalents?",
+      "gold_answer": "1.11",
+      "before_answer": "132254.41",
+      "after_answer": "132254.41",
+      "before_nre_old": 119147.11711711712,
+      "after_nre_old": 119147.11711711712,
+      "before_nre_new": 1.9999664286224126,
+      "after_nre_new": 1.9999664286224126,
+      "final_answer_source_after": "multi_table_structured_join",
+      "ratio_scale_guard_after": {
+        "triggered": false,
+        "reason": null
+      },
+      "expected_table_constraint_after": {
+        "expected_table_id": "0",
+        "matched_count": 5,
+        "reordered": true
+      }
+    },
+    {
+      "question_id": "single_table_extractive-1013",
+      "question": "How many on-site qualification checks for ESG objectives were done in 2023?",
+      "gold_answer": "14",
+      "before_answer": "1534836.9",
+      "after_answer": "1534836.9",
+      "before_nre_old": 109630.20714285714,
+      "after_nre_old": 109630.20714285714,
+      "before_nre_new": 1.9999635143713308,
+      "after_nre_new": 1.9999635143713308,
+      "final_answer_source_after": "initial",
+      "ratio_scale_guard_after": null,
+      "expected_table_constraint_after": null
+    },
+    {
+      "question_id": "single_table_extractive-1097",
+      "question": "What were the emissions in 2023 in tonnes of CO2 equivalent?",
+      "gold_answer": "0.894",
+      "before_answer": "96745",
+      "after_answer": "96745",
+      "before_nre_old": 108214.8836689038,
+      "after_nre_old": 108214.8836689038,
+      "before_nre_new": 1.999963037191015,
+      "after_nre_new": 1.999963037191015,
+      "final_answer_source_after": "initial",
+      "ratio_scale_guard_after": null,
+      "expected_table_constraint_after": null
+    },
+    {
+      "question_id": "single_table_extractive-179",
+      "question": "How much high-level radioactive waste was generated in 2022 in metric tons?",
+      "gold_answer": "0",
+      "before_answer": "107019",
+      "after_answer": "107019",
+      "before_nre_old": 107019.0,
+      "after_nre_old": 107019.0,
+      "before_nre_new": 2.0,
+      "after_nre_new": 2.0,
+      "final_answer_source_after": "initial",
+      "ratio_scale_guard_after": null,
+      "expected_table_constraint_after": null
+    },
+    {
+      "question_id": "multi_table_multistep-48",
+      "question": "What are the top 2 lowest water consumption values (in ascending order) obtained by summing the 2023 and 2022 consumption for the following companies in millions of m3?",
+      "gold_answer": "9.89, 80.6",
+      "before_answer": "959708",
+      "after_answer": "959708",
+      "before_nre_old": 97037.22042467138,
+      "after_nre_old": 97037.22042467138,
+      "before_nre_new": 1.9999587795534373,
+      "after_nre_new": 1.9999587795534373,
+      "final_answer_source_after": "calculation",
+      "ratio_scale_guard_after": {
+        "triggered": false,
+        "reason": null
+      },
+      "expected_table_constraint_after": {
+        "expected_table_id": "0",
+        "matched_count": 9,
+        "reordered": true
+      }
+    },
+    {
+      "question_id": "single_table_extractive-1010",
+      "question": "What is the count of on-site qualification checks that occurred in 2023?",
+      "gold_answer": "17",
+      "before_answer": "1534836.9",
+      "after_answer": "1534836.9",
+      "before_nre_old": 90283.52352941176,
+      "after_nre_old": 90283.52352941176,
+      "before_nre_new": 1.999955696108926,
+      "after_nre_new": 1.999955696108926,
+      "final_answer_source_after": "initial",
+      "ratio_scale_guard_after": null,
+      "expected_table_constraint_after": null
+    },
+    {
+      "question_id": "single_table_extractive-1788",
+      "question": "What was the percentage of suppliers of production-related material with implemented preventive measures at the time of awarding in 2022?",
+      "gold_answer": "70",
+      "before_answer": "6295990",
+      "after_answer": "INSUFFICIENT_CONTEXT",
+      "before_nre_old": 89941.71428571429,
+      "after_nre_old": null,
+      "before_nre_new": 1.999955527742747,
+      "after_nre_new": null,
+      "final_answer_source_after": "initial",
+      "ratio_scale_guard_after": {
+        "triggered": true,
+        "reason": "blocked_absolute_value_for_ratio_question"
+      },
+      "expected_table_constraint_after": null
+    },
+    {
+      "question_id": "single_table_extractive-774",
+      "question": "What was the CO2 emissions intensity for commercial real estate, residential in 2023?",
+      "gold_answer": "36.9",
+      "before_answer": "3016864",
+      "after_answer": "3016864",
+      "before_nre_old": 81756.8319783198,
+      "after_nre_old": 81756.8319783198,
+      "before_nre_new": 1.9999510756220067,
+      "after_nre_new": 1.9999510756220067,
+      "final_answer_source_after": "initial",
+      "ratio_scale_guard_after": null,
+      "expected_table_constraint_after": null
+    },
+    {
+      "question_id": "single_table_extractive-1683",
+      "question": "What is the percentage of potable water in total water consumption for the year 2023?",
+      "gold_answer": "83.8",
+      "before_answer": "6380652",
+      "after_answer": "1.2878",
+      "before_nre_old": 76140.43198090693,
+      "after_nre_old": 0.9846324582338901,
+      "before_nre_new": 1.999947466873648,
+      "after_nre_new": 1.9394601811305496,
+      "final_answer_source_after": "initial",
+      "ratio_scale_guard_after": {
+        "triggered": true,
+        "reason": "derived_ratio_from_candidates"
+      },
+      "expected_table_constraint_after": null
+    },
+    {
+      "question_id": "single_table_extractive-1681",
+      "question": "What was the percentage of potable water in total water consumption in 2021?",
+      "gold_answer": "85.1",
+      "before_answer": "6476955",
+      "after_answer": "INSUFFICIENT_CONTEXT",
+      "before_nre_old": 76108.92949471211,
+      "after_nre_old": null,
+      "before_nre_new": 1.9999474451300683,
+      "after_nre_new": null,
+      "final_answer_source_after": "initial",
+      "ratio_scale_guard_after": {
+        "triggered": true,
+        "reason": "blocked_absolute_value_for_ratio_question"
+      },
+      "expected_table_constraint_after": null
+    },
+    {
+      "question_id": "single_table_extractive-1682",
+      "question": "What percentage of the total water consumption was potable water in 2022?",
+      "gold_answer": "84",
+      "before_answer": "6295990",
+      "after_answer": "INSUFFICIENT_CONTEXT",
+      "before_nre_old": 74951.26190476191,
+      "after_nre_old": null,
+      "before_nre_new": 1.9999466334099631,
+      "after_nre_new": null,
+      "final_answer_source_after": "initial",
+      "ratio_scale_guard_after": {
+        "triggered": true,
+        "reason": "blocked_absolute_value_for_ratio_question"
+      },
+      "expected_table_constraint_after": null
+    },
+    {
+      "question_id": "single_table_extractive-1063",
+      "question": "How many disputes with suppliers were settled in 2021?",
+      "gold_answer": "1",
+      "before_answer": "73203.7",
+      "after_answer": "6830",
+      "before_nre_old": 73202.7,
+      "after_nre_old": 6829.0,
+      "before_nre_new": 1.9999453586996463,
+      "after_nre_new": 1.9994144341970428,
+      "final_answer_source_after": "initial",
+      "ratio_scale_guard_after": null,
+      "expected_table_constraint_after": null
+    },
+    {
+      "question_id": "single_table_extractive-1680",
+      "question": "How much of the total water consumption was potable water in percentage for the year 2020?",
+      "gold_answer": "86.3",
+      "before_answer": "6040824",
+      "after_answer": "1.2211",
+      "before_nre_old": 69996.96060254925,
+      "after_nre_old": 0.9858505214368481,
+      "before_nre_new": 1.9999428562943569,
+      "after_nre_new": 1.9441917434767155,
+      "final_answer_source_after": "initial",
+      "ratio_scale_guard_after": {
+        "triggered": true,
+        "reason": "derived_ratio_from_candidates"
+      },
+      "expected_table_constraint_after": null
+    }
+  ]
+}
