@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gri-qa-system-benchmark"
+version = "0.1.0"
+description = "Benchmarking traditional RAG vs agentic multi-tool pipelines on table-grounded sustainability QA"
+requires-python = ">=3.9"
+dependencies = [
+  "pandas>=2.2.0",
+  "numpy>=1.26.0",
+  "pyyaml>=6.0.1",
+  "matplotlib>=3.8.0"
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
