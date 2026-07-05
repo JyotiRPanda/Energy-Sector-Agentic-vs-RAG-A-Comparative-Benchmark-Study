@@ -182,10 +182,6 @@ Energy_Sector_Agentic_vs_RAG/
 │   ├── summary.json                   # Aggregate metrics
 │   ├── ablation/                      # Ablation study results
 │   └── analysis/                      # Analysis reports
-│
-└── diagrams/                          # Visualization utilities
-    ├── create_clean_diagrams.py       # Generate architecture diagrams
-    └── results/                       # Output diagrams (git-ignored)
 ```
 
 ---
