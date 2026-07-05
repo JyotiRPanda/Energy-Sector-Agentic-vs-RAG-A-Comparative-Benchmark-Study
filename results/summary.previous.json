@@ -1,0 +1,30 @@
+{
+  "traditional_rag": {
+    "n_samples": 2750.0,
+    "exact_match": 0.3836363636363636,
+    "numeric_relative_error": 79295.27520023871,
+    "citation_precision": 0.5785454545454546,
+    "citation_recall": 0.5785454545454546,
+    "faithfulness": 0.7892727272727272,
+    "transparency": 1.0,
+    "latency_ms": 1.580069722181824,
+    "error_rate.incorrect_quantitative_operation": 0.5043636363636363,
+    "error_rate.miscitation": 0.42145454545454547,
+    "error_rate.wrong_table": 0.12654545454545454,
+    "error_rate.wrong_unit": 0.0007272727272727272
+  },
+  "agentic_multi_tool": {
+    "n_samples": 2750.0,
+    "exact_match": 0.3825454545454545,
+    "numeric_relative_error": 79394.68423726367,
+    "citation_precision": 0.5785454545454546,
+    "citation_recall": 0.5785454545454546,
+    "faithfulness": 0.7892727272727272,
+    "transparency": 1.0,
+    "latency_ms": 1.878508454181819,
+    "error_rate.incorrect_quantitative_operation": 0.5043636363636363,
+    "error_rate.miscitation": 0.42145454545454547,
+    "error_rate.wrong_table": 0.12654545454545454,
+    "error_rate.wrong_unit": 0.0007272727272727272
+  }
+}
