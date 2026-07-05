@@ -1,0 +1,268 @@
+{
+  "dataset_files": [
+    "data/benchmark/manifest.csv",
+    "data/benchmark/multi-table/gri-qa_multitable2-multistep.csv",
+    "data/benchmark/multi-table/gri-qa_multitable2-quant.csv",
+    "data/benchmark/multi-table/gri-qa_multitable2-rel.csv",
+    "data/benchmark/one-table/gri-qa_extra.csv",
+    "data/benchmark/one-table/gri-qa_multistep.csv",
+    "data/benchmark/one-table/gri-qa_quant.csv",
+    "data/benchmark/one-table/gri-qa_rel.csv"
+  ],
+  "file_stats": [
+    {
+      "file": "data/benchmark/manifest.csv",
+      "rows": 7,
+      "cols": 1,
+      "columns": [
+        "relative_path"
+      ],
+      "missing_cells": 0
+    },
+    {
+      "file": "data/benchmark/multi-table/gri-qa_multitable2-multistep.csv",
+      "rows": 231,
+      "cols": 12,
+      "columns": [
+        "Unnamed: 0",
+        "pdf name",
+        "page nbr",
+        "table nbr",
+        "answer_value",
+        "answer_company",
+        "unit",
+        "years",
+        "question",
+        "question_type_ext",
+        "gri",
+        "value"
+      ],
+      "missing_cells": 95,
+      "non_null_question": 231,
+      "question_len_mean": 135.25974025974025,
+      "question_len_median": 129.0,
+      "question_len_p95": 188.0
+    },
+    {
+      "file": "data/benchmark/multi-table/gri-qa_multitable2-quant.csv",
+      "rows": 75,
+      "cols": 12,
+      "columns": [
+        "Unnamed: 0",
+        "pdf name",
+        "page nbr",
+        "table nbr",
+        "answer_value",
+        "answer_company",
+        "unit",
+        "years",
+        "question",
+        "question_type_ext",
+        "gri",
+        "value"
+      ],
+      "missing_cells": 12,
+      "non_null_question": 75,
+      "question_len_mean": 106.33333333333333,
+      "question_len_median": 103.0,
+      "question_len_p95": 129.89999999999998
+    },
+    {
+      "file": "data/benchmark/multi-table/gri-qa_multitable2-rel.csv",
+      "rows": 235,
+      "cols": 12,
+      "columns": [
+        "Unnamed: 0",
+        "pdf name",
+        "page nbr",
+        "table nbr",
+        "answer_value",
+        "answer_company",
+        "unit",
+        "years",
+        "question",
+        "question_type_ext",
+        "gri",
+        "value"
+      ],
+      "missing_cells": 7,
+      "non_null_question": 235,
+      "question_len_mean": 136.8127659574468,
+      "question_len_median": 139.0,
+      "question_len_p95": 169.59999999999997
+    },
+    {
+      "file": "data/benchmark/one-table/gri-qa_extra.csv",
+      "rows": 2005,
+      "cols": 11,
+      "columns": [
+        "Unnamed: 0",
+        "hierarchical",
+        "pdf name",
+        "gri",
+        "gri_finegrained",
+        "page nbr",
+        "table nbr",
+        "question",
+        "value",
+        "row",
+        "column"
+      ],
+      "missing_cells": 2,
+      "non_null_question": 2005,
+      "question_len_mean": 88.6069825436409,
+      "question_len_median": 85.0,
+      "question_len_p95": 133.0
+    },
+    {
+      "file": "data/benchmark/one-table/gri-qa_multistep.csv",
+      "rows": 166,
+      "cols": 10,
+      "columns": [
+        "pdf name",
+        "page nbr",
+        "table nbr",
+        "gri",
+        "question",
+        "question_type_ext",
+        "value",
+        "row indices",
+        "col indices",
+        "metadata"
+      ],
+      "missing_cells": 0,
+      "non_null_question": 166,
+      "question_len_mean": 142.83734939759037,
+      "question_len_median": 139.0,
+      "question_len_p95": 207.75
+    },
+    {
+      "file": "data/benchmark/one-table/gri-qa_quant.csv",
+      "rows": 266,
+      "cols": 14,
+      "columns": [
+        "pdf name",
+        "checked",
+        "gri",
+        "page nbr",
+        "table nbr",
+        "question",
+        "question_type",
+        "question_type_ext",
+        "value",
+        "row indices",
+        "col indices",
+        "row/column spanning",
+        "firstk",
+        "fn_details"
+      ],
+      "missing_cells": 266,
+      "non_null_question": 266,
+      "question_len_mean": 106.8157894736842,
+      "question_len_median": 103.0,
+      "question_len_p95": 154.25
+    },
+    {
+      "file": "data/benchmark/one-table/gri-qa_rel.csv",
+      "rows": 248,
+      "cols": 11,
+      "columns": [
+        "pdf name",
+        "gri",
+        "page nbr",
+        "table nbr",
+        "question",
+        "question_type_ext",
+        "value",
+        "row indices",
+        "col indices",
+        "row/column spanning",
+        "metadata"
+      ],
+      "missing_cells": 0,
+      "non_null_question": 248,
+      "question_len_mean": 121.29032258064517,
+      "question_len_median": 116.0,
+      "question_len_p95": 180.29999999999995
+    }
+  ],
+  "overall": {
+    "total_rows": 3233,
+    "total_columns_union": 26,
+    "unique_question_id": null,
+    "duplicate_question_id_rows": null,
+    "question_len_mean": 102.45994432415714,
+    "question_len_median": 98.0,
+    "question_len_p95": 162.0,
+    "question_cue_rates": {
+      "how many": 0.045159294772656976,
+      "what is/was": 0.5824311784720074,
+      "compare": 0.059696875966594495,
+      "trend/time": 0.3699350448499845,
+      "ratio/percent": 0.19981441385709867,
+      "multi-step cue": 0.3940612434271574
+    }
+  },
+  "prediction_stats": {
+    "traditional_rag_predictions.json": {
+      "rows": 2750,
+      "columns": [
+        "question_id",
+        "pipeline_name",
+        "answer",
+        "latency_ms",
+        "citations",
+        "trace_steps",
+        "metadata"
+      ],
+      "latency_mean_ms": 0.0009656396363624253,
+      "latency_median_ms": 0.0007090000000431473,
+      "latency_p95_ms": 0.0009999999992515995,
+      "empty_answer_rate": 0.0,
+      "answer_len_mean": 20.0
+    },
+    "agentic_multi_tool_predictions.json": {
+      "rows": 2750,
+      "columns": [
+        "question_id",
+        "pipeline_name",
+        "answer",
+        "latency_ms",
+        "citations",
+        "trace_steps",
+        "metadata"
+      ],
+      "latency_mean_ms": 0.001380906181815724,
+      "latency_median_ms": 0.0010830000007899798,
+      "latency_p95_ms": 0.002000000000279556,
+      "empty_answer_rate": 0.0,
+      "answer_len_mean": 20.0
+    }
+  },
+  "summary_json": {
+    "traditional_rag": {
+      "n_samples": 2750.0,
+      "exact_match": 0.0,
+      "numeric_relative_error": 0.0,
+      "citation_precision": 0.5,
+      "citation_recall": 1.0,
+      "faithfulness": 0.0,
+      "transparency": 1.0,
+      "latency_ms": 0.0009656396363624253,
+      "error_rate.miscitation": 1.0,
+      "error_rate.unsupported_claim": 1.0
+    },
+    "agentic_multi_tool": {
+      "n_samples": 2750.0,
+      "exact_match": 0.0,
+      "numeric_relative_error": 0.0,
+      "citation_precision": 0.7,
+      "citation_recall": 1.0,
+      "faithfulness": 0.0,
+      "transparency": 1.0,
+      "latency_ms": 0.001380906181815724,
+      "error_rate.miscitation": 1.0,
+      "error_rate.unsupported_claim": 1.0
+    }
+  }
+}

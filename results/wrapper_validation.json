@@ -1,0 +1,120 @@
+[
+  {
+    "question": "What is the average estimated total energy consumption from ",
+    "retrieved_chunks": "697753.5 mwh in 2020 2022 2023\n189522.0 mwh in 2022 2023\n716398.0 mwh in 2023",
+    "operands": [
+      697753.5,
+      189522.0,
+      716398.0
+    ],
+    "operation": "avg",
+    "predicted_answer": 534557.8333333334,
+    "rag_original_answer": 697753.5,
+    "agentic_original_answer": 697753.5,
+    "gold_answer": 697753.5
+  },
+  {
+    "question": "What is the percentage reduction in hazardous waste generate",
+    "retrieved_chunks": "30.0 percent in 2020 2023\n17382.5 tons in 2020 2021 2023\n11.24 percent in 2020 2021",
+    "operands": [],
+    "operation": "ERROR: Controlled reasoning failed: Computation failed: Cannot compute percentage change with single value",
+    "predicted_answer": null,
+    "rag_original_answer": 30.0,
+    "agentic_original_answer": 30.0,
+    "gold_answer": 30.0
+  },
+  {
+    "question": "What is the sum of group-level thermal energy and electricit",
+    "retrieved_chunks": "40111.0 mwh in 2022 2023\n189522.0 mwh in 2022 2023\n36144.0 mwh in 2021 2023",
+    "operands": [
+      40111.0,
+      189522.0,
+      36144.0
+    ],
+    "operation": "sum",
+    "predicted_answer": 265777.0,
+    "rag_original_answer": 40111.0,
+    "agentic_original_answer": 40111.0,
+    "gold_answer": 40111.0
+  },
+  {
+    "question": "What is the average percentage reduction of indirect GHG emi",
+    "retrieved_chunks": "27.0 percent in 2015\n1.0 percent in 2015 2021 2022 2023\n-0.12 percent in 2015 2022 2023",
+    "operands": [],
+    "operation": "ERROR: Controlled reasoning failed: No relevant operands found in retrieved chunks",
+    "predicted_answer": null,
+    "rag_original_answer": 27.0,
+    "agentic_original_answer": 27.0,
+    "gold_answer": 27.0
+  },
+  {
+    "question": "What is the increase in energy consumption from grid electri",
+    "retrieved_chunks": "13.95 mwh in 2022 2023\n17382.5 tons in 2020 2021 2023\n9420.0 tons in 2022 2023",
+    "operands": [
+      17382.5,
+      9420.0
+    ],
+    "operation": "sum",
+    "predicted_answer": 26802.5,
+    "rag_original_answer": 13.95,
+    "agentic_original_answer": 13.95,
+    "gold_answer": -14640.0
+  },
+  {
+    "question": "What is the average percentage of clothes made from recycled",
+    "retrieved_chunks": "99.5 percent in 2023\n8.79 percent in 2021 2023\n5.26 percent in 2021 2023",
+    "operands": [],
+    "operation": "ERROR: Controlled reasoning failed: No relevant operands found in retrieved chunks",
+    "predicted_answer": null,
+    "rag_original_answer": 99.5,
+    "agentic_original_answer": 99.5,
+    "gold_answer": 99.5
+  },
+  {
+    "question": "What is the percentage reduction in groundwater water withdr",
+    "retrieved_chunks": "13.68 percent in 2020 2021 2022 2023\n16.74 percent in 2021 2022\n2593.67 mwh in 2021 2022 2023",
+    "operands": [],
+    "operation": "ERROR: Controlled reasoning failed: Computation failed: Cannot compute percentage change with single value",
+    "predicted_answer": null,
+    "rag_original_answer": 13.68,
+    "agentic_original_answer": 13.68,
+    "gold_answer": 4.15
+  },
+  {
+    "question": "What is the difference in the total energy consumption when ",
+    "retrieved_chunks": "1141660.0 tons in 2021\n17382.5 tons in 2020 2021 2023\n6238.0 tons in 2019 2020 2021 2022 2023",
+    "operands": [
+      1141660.0,
+      17382.5,
+      6238.0
+    ],
+    "operation": "sum",
+    "predicted_answer": 1165280.5,
+    "rag_original_answer": 1141660.0,
+    "agentic_original_answer": 1141660.0,
+    "gold_answer": 13479.0
+  },
+  {
+    "question": "What is the reduction in indirect GHG emissions from the cat",
+    "retrieved_chunks": "9420.0 tons in 2022 2023\n17382.5 tons in 2020 2021 2023\n13.95 mwh in 2022 2023",
+    "operands": [],
+    "operation": "ERROR: Controlled reasoning failed: Could not detect operation type from question: What is the reduction in indirect GHG emissions from the cat",
+    "predicted_answer": null,
+    "rag_original_answer": 9420.0,
+    "agentic_original_answer": 9420.0,
+    "gold_answer": 1.0
+  },
+  {
+    "question": "What is the sum of all full consolidated values of total con",
+    "retrieved_chunks": "9420.0 tons in 2022 2023\n17382.5 tons in 2020 2021 2023\n13.95 mwh in 2022 2023",
+    "operands": [
+      9420.0,
+      17382.5
+    ],
+    "operation": "sum",
+    "predicted_answer": 26802.5,
+    "rag_original_answer": 9420.0,
+    "agentic_original_answer": 9420.0,
+    "gold_answer": 44559.0
+  }
+]

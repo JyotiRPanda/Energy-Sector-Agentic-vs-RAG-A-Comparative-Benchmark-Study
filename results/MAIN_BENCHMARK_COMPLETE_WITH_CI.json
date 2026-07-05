@@ -1,0 +1,84 @@
+{
+  "metadata": {
+    "source": "results/full_4089_merged/ (merged predictions + examples)",
+    "generated": "2026-07-05",
+    "n_samples": 4089,
+    "note": "Computed from individual predictions using bootstrap resampling (n=1000, alpha=0.05)"
+  },
+  "computed_metrics": {
+    "traditional_rag": {
+      "n_samples": 2685.0,
+      "exact_match": 0.3418994413407821,
+      "exact_match_ci_low": 0.3243947858472998,
+      "exact_match_ci_high": 0.35940409683426444,
+      "numeric_relative_error": 0.487367051279123,
+      "citation_precision": 0.4957169459962756,
+      "citation_precision_ci_low": 0.4759776536312849,
+      "citation_precision_ci_high": 0.5143389199255121,
+      "citation_recall": 0.4957169459962756,
+      "faithfulness": 0.5059590316573557,
+      "faithfulness_ci_low": 0.48957169459962757,
+      "faithfulness_ci_high": 0.5232774674115456,
+      "transparency": 1.0,
+      "latency_ms": 10791.781787727396,
+      "avg_prompt_tokens": 662.1150837988827,
+      "avg_completion_tokens": 4.719553072625699,
+      "avg_embedding_tokens": 267.6420856610801,
+      "avg_tool_calls": 0.0,
+      "avg_cost_usd_per_sample": 0.003408132923649907,
+      "total_cost_usd": 9.150836899999995,
+      "latency_planning_ms": 0.008397994408888054,
+      "latency_retrieval_ms": 7691.878380723658,
+      "latency_tool_execution_ms": 0.0,
+      "latency_synthesis_ms": 3099.792969924003
+    },
+    "agentic_multi_tool": {
+      "n_samples": 2685.0,
+      "exact_match": 0.5344506517690876,
+      "exact_match_ci_low": 0.5154562383612663,
+      "exact_match_ci_high": 0.553072625698324,
+      "numeric_relative_error": 0.6818610386048689,
+      "citation_precision": 0.47256362507759153,
+      "citation_precision_ci_low": 0.453382991930478,
+      "citation_precision_ci_high": 0.4910614525139665,
+      "citation_recall": 0.49906890130353815,
+      "faithfulness": 0.6504655493482309,
+      "faithfulness_ci_low": 0.637243947858473,
+      "faithfulness_ci_high": 0.6640595903165736,
+      "transparency": 1.0,
+      "latency_ms": 4968.984260886424,
+      "avg_prompt_tokens": 527.2569832402235,
+      "avg_completion_tokens": 3.283054003724395,
+      "avg_embedding_tokens": 239.31769087523278,
+      "avg_tool_calls": 4.0,
+      "avg_cost_usd_per_sample": 0.0027094624953445065,
+      "total_cost_usd": 7.274906799999994,
+      "latency_planning_ms": 0.0005125530469825307,
+      "latency_retrieval_ms": 2097.416337186545,
+      "latency_tool_execution_ms": 0.227637493477144,
+      "latency_synthesis_ms": 2870.8900369244166
+    }
+  },
+  "latency_and_quality_metrics": {
+    "traditional_rag": {
+      "latency_ms": 9745.89584433355,
+      "latency_count": 3226,
+      "faithfulness": null,
+      "faithfulness_count": 0,
+      "transparency": 1.0,
+      "transparency_count": 3226,
+      "exact_match_samples": 0,
+      "citation_precision_samples": 0
+    },
+    "agentic_multi_tool": {
+      "latency_ms": 4987.748079504047,
+      "latency_count": 3226,
+      "faithfulness": null,
+      "faithfulness_count": 0,
+      "transparency": 1.0,
+      "transparency_count": 3226,
+      "exact_match_samples": 0,
+      "citation_precision_samples": 0
+    }
+  }
+}

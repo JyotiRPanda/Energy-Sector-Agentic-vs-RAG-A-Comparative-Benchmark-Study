@@ -1,0 +1,202 @@
+[
+  {
+    "question_id": 0,
+    "question": "What is the average total waste in tons for the years 2022 and 2023?",
+    "gold": 4710.0,
+    "controlled_pred": 196901.775,
+    "rag_pred": 516.2,
+    "agentic_pred": 516.2,
+    "operation": "avg",
+    "error": null
+  },
+  {
+    "question_id": 1,
+    "question": "What is the increase in the amount of unsorted waste (in tons) from 2022 to 2023?",
+    "gold": 802.0,
+    "controlled_pred": -302.0,
+    "rag_pred": 2.836,
+    "agentic_pred": 2.836,
+    "operation": "diff",
+    "error": null
+  },
+  {
+    "question_id": 2,
+    "question": "What is the sum of the total waste in tons for the years 2022 and 2023?",
+    "gold": 9420.0,
+    "controlled_pred": 573.9000000000001,
+    "rag_pred": 192.7,
+    "agentic_pred": 192.7,
+    "operation": "sum",
+    "error": null
+  },
+  {
+    "question_id": 3,
+    "question": "What is the percentage reduction in the amount of unsorted waste from 2022 to 2023?",
+    "gold": 29.09,
+    "controlled_pred": null,
+    "rag_pred": 123.0,
+    "agentic_pred": 123.0,
+    "operation": null,
+    "error": "Controlled reasoning failed: No relevant operands found in retrieved chunks"
+  },
+  {
+    "question_id": 4,
+    "question": "What is the difference in total waste (T) from 2022 to 2023?",
+    "gold": 720.0,
+    "controlled_pred": 634.79,
+    "rag_pred": 1.5,
+    "agentic_pred": 1.5,
+    "operation": "sum",
+    "error": null
+  },
+  {
+    "question_id": 5,
+    "question": "What is the average intensity of GHG emissions (Scope 1+2) of operated upstream oil and gas activities and on equity basis for the year 2022?",
+    "gold": 18.0,
+    "controlled_pred": 200.2875,
+    "rag_pred": 503.2,
+    "agentic_pred": 503.2,
+    "operation": "avg",
+    "error": null
+  },
+  {
+    "question_id": 6,
+    "question": "What is the increase between the intensity of GHG emissions (Scope 1+2) of operated upstream oil & gas activities in 2023 and 2022?",
+    "gold": 0.0,
+    "controlled_pred": -302.0,
+    "rag_pred": 5.2,
+    "agentic_pred": 5.2,
+    "operation": "diff",
+    "error": null
+  },
+  {
+    "question_id": 7,
+    "question": "What is the sum of intensity of GHG emissions (Scope 1+2) of operated upstream oil and gas activities and on equity basis for the year 2021?",
+    "gold": 36.0,
+    "controlled_pred": 13684.0,
+    "rag_pred": 1.166,
+    "agentic_pred": 1.166,
+    "operation": "sum",
+    "error": null
+  },
+  {
+    "question_id": 8,
+    "question": "What is the percentage reduction in the intensity of GHG emissions (Scope 1+2) of upstream oil and gas activities on an equity basis from 2021 to 2023?",
+    "gold": 5.26,
+    "controlled_pred": -2.0,
+    "rag_pred": 1224.0,
+    "agentic_pred": 1224.0,
+    "operation": "diff",
+    "error": null
+  },
+  {
+    "question_id": 9,
+    "question": "What is the reduction between the intensity of methane emissions from operated oil and gas facilities (Upstream) in 2023 and 2021?",
+    "gold": 0.02,
+    "controlled_pred": -2.0,
+    "rag_pred": 1283.0,
+    "agentic_pred": 1283.0,
+    "operation": "diff",
+    "error": null
+  },
+  {
+    "question_id": 10,
+    "question": "What is the percentage reduction in the intensity of methane emissions from operated oil and gas facilities (Upstream) when comparing the values from 2021 to 2022?",
+    "gold": 15.38,
+    "controlled_pred": 300.0,
+    "rag_pred": 117.0,
+    "agentic_pred": 117.0,
+    "operation": "diff",
+    "error": null
+  },
+  {
+    "question_id": 11,
+    "question": "What is the average intensity of methane emissions from operated oil and gas facilities (Upstream) for the years 2023, 2022, 2021, and 2015?",
+    "gold": 0.14,
+    "controlled_pred": 231.875,
+    "rag_pred": 97.0,
+    "agentic_pred": 97.0,
+    "operation": "avg",
+    "error": null
+  },
+  {
+    "question_id": 12,
+    "question": "What is the increase in the intensity of methane emissions from operated oil and gas facilities (Upstream) between the years 2015 and 2022?",
+    "gold": -0.12,
+    "controlled_pred": 300.0,
+    "rag_pred": 17.0,
+    "agentic_pred": 17.0,
+    "operation": "diff",
+    "error": null
+  },
+  {
+    "question_id": 13,
+    "question": "What is the average net primary energy consumption (in TWh) from the years 2015 to 2023?",
+    "gold": 155.17,
+    "controlled_pred": 218.625,
+    "rag_pred": 1118.0,
+    "agentic_pred": 1118.0,
+    "operation": "avg",
+    "error": null
+  },
+  {
+    "question_id": 14,
+    "question": "What is the increase in renewable energy consumption (TWh) between the years 2021 and 2023?",
+    "gold": 1.0,
+    "controlled_pred": 842845.0,
+    "rag_pred": 18.8,
+    "agentic_pred": 18.8,
+    "operation": "sum",
+    "error": null
+  },
+  {
+    "question_id": 15,
+    "question": "What is the total sum of the net primary energy consumption (in TWh) from the years 2015 to 2023?",
+    "gold": 931.0,
+    "controlled_pred": 560.0,
+    "rag_pred": 128.0,
+    "agentic_pred": 128.0,
+    "operation": "sum",
+    "error": null
+  },
+  {
+    "question_id": 16,
+    "question": "What is the percentage increase in the number of operated sites with annual consumption greater than 50 ktoe from 2020 to 2023?",
+    "gold": 2.38,
+    "controlled_pred": 920.0,
+    "rag_pred": 34.3,
+    "agentic_pred": 34.3,
+    "operation": "sum",
+    "error": null
+  },
+  {
+    "question_id": 17,
+    "question": "What is the reduction between the Global Energy Efficiency Indicator (GEEI) values for the years 2022 and 2020?",
+    "gold": 5.1,
+    "controlled_pred": 300.0,
+    "rag_pred": 25.2,
+    "agentic_pred": 25.2,
+    "operation": "diff",
+    "error": null
+  },
+  {
+    "question_id": 18,
+    "question": "What is the percentage decrease in the Global Energy Efficiency Indicator (GEEI) from 2015 to 2021?",
+    "gold": 4.19,
+    "controlled_pred": 100.0,
+    "rag_pred": 1.0,
+    "agentic_pred": 1.0,
+    "operation": "pct",
+    "error": null
+  },
+  {
+    "question_id": 19,
+    "question": "What is the average value of the Global Energy Efficiency Indicator (GEEI) from 2015 to 2023?",
+    "gold": 87.92,
+    "controlled_pred": null,
+    "rag_pred": 8.0,
+    "agentic_pred": 8.0,
+    "operation": null,
+    "error": "Controlled reasoning failed: No relevant operands found in retrieved chunks"
+  }
+]

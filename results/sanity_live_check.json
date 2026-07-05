@@ -1,0 +1,21 @@
+{
+  "sample_size": 15,
+  "rag": {
+    "retrieval_relevance_ratio": 1.0,
+    "grounded_answer_ratio": 1.0
+  },
+  "agentic": {
+    "retrieval_relevance_ratio": 1.0,
+    "grounded_answer_ratio": 1.0,
+    "tool_call_ratio": 1.0,
+    "trace_log_ratio": 1.0,
+    "citation_ratio": 1.0
+  },
+  "checks": {
+    "retrieval_not_random": true,
+    "grounded_outputs": true,
+    "agent_calls_tools": true,
+    "agent_has_trace_logs": true,
+    "agent_has_citations": true
+  }
+}

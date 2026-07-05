@@ -1,0 +1,48 @@
+{
+  "metadata": {
+    "source": "results/full_4089_merged/summary.json",
+    "generated": "2026-07-05",
+    "n_merged_samples": "3,226 (full) + 863 (incremental) = 4,089 total",
+    "note": "NRE uses symmetric formula: (2|p-g|)/(|g|+|p|)"
+  },
+  "traditional_rag": {
+    "n_samples": 4089.0,
+    "exact_match": 0.23648813890926876,
+    "exact_match_ci_low": null,
+    "exact_match_ci_high": null,
+    "numeric_relative_error": 0.4980411540172128,
+    "citation_precision": 0.4741990706774272,
+    "citation_precision_ci_low": null,
+    "citation_precision_ci_high": null,
+    "citation_recall": 0.4741990706774272,
+    "faithfulness": null,
+    "faithfulness_ci_low": null,
+    "faithfulness_ci_high": null,
+    "transparency": null,
+    "latency_ms": null,
+    "error_rate.incorrect_quantitative_operation": 0.128148691611641,
+    "error_rate.miscitation": 0.5258009293225727,
+    "error_rate.unsupported_claim": 0.4619711420885302,
+    "error_rate.wrong_table": 0.123991195891416
+  },
+  "agentic_multi_tool": {
+    "n_samples": 4089.0,
+    "exact_match": 0.3959403277084862,
+    "exact_match_ci_low": null,
+    "exact_match_ci_high": null,
+    "numeric_relative_error": 0.7304927868457779,
+    "citation_precision": 0.4497024537376682,
+    "citation_precision_ci_low": null,
+    "citation_precision_ci_high": null,
+    "citation_recall": 0.4673514306676449,
+    "faithfulness": null,
+    "faithfulness_ci_low": null,
+    "faithfulness_ci_high": null,
+    "transparency": null,
+    "latency_ms": null,
+    "error_rate.incorrect_quantitative_operation": 0.35925654194179507,
+    "error_rate.miscitation": 0.5585717779408168,
+    "error_rate.unsupported_claim": 0.22964049889948643,
+    "error_rate.wrong_table": 0.11494252873563218
+  }
+}

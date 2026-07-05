@@ -1,0 +1,86 @@
+{
+  "selected_total_rows": 2750,
+  "selected_paths": [
+    "data/benchmark/one-table/gri-qa_extra.csv",
+    "data/benchmark/one-table/gri-qa_rel.csv",
+    "data/benchmark/one-table/gri-qa_quant.csv",
+    "data/benchmark/multi-table/gri-qa_multitable2-multistep.csv"
+  ],
+  "split_stats": [
+    {
+      "split": "multi_table_multistep",
+      "rows": 231,
+      "cols": 26,
+      "q_len_mean": 135.25974025974025,
+      "q_len_med": 129.0,
+      "q_len_p95": 188.0,
+      "value_numeric_parse_rate": 0.44155844155844154,
+      "top_qtypes": {
+        "multistep_sup": 133,
+        "multistep_rank": 64,
+        "multistep_mean": 29,
+        "multistep_sum": 5
+      }
+    },
+    {
+      "split": "single_table_extractive",
+      "rows": 2005,
+      "cols": 26,
+      "q_len_mean": 88.6069825436409,
+      "q_len_med": 85.0,
+      "q_len_p95": 133.0,
+      "value_numeric_parse_rate": 0.9266832917705735,
+      "top_qtypes": {
+        "NA": 2005
+      }
+    },
+    {
+      "split": "single_table_quantitative",
+      "rows": 266,
+      "cols": 26,
+      "q_len_mean": 106.8157894736842,
+      "q_len_med": 103.0,
+      "q_len_p95": 154.25,
+      "value_numeric_parse_rate": 1.0,
+      "top_qtypes": {
+        "reduction_difference": 70,
+        "average": 60,
+        "sum": 57,
+        "reduction_percentage": 37,
+        "increase_percentage": 24,
+        "increase_difference": 18
+      }
+    },
+    {
+      "split": "single_table_relational",
+      "rows": 248,
+      "cols": 26,
+      "q_len_mean": 121.29032258064517,
+      "q_len_med": 116.0,
+      "q_len_p95": 180.29999999999995,
+      "value_numeric_parse_rate": 0.2701612903225806,
+      "top_qtypes": {
+        "comparative": 100,
+        "rank": 81,
+        "superlative": 67
+      }
+    }
+  ],
+  "value_form_heuristics": {
+    "contains_percent": 0.00909090909090909,
+    "contains_currency_symbol": 0.0,
+    "contains_range_marker": 0.07345454545454545,
+    "contains_textual_non_numeric": 0.16618181818181818
+  },
+  "duplicate_question_rows": 102,
+  "unique_question_rows": 2648,
+  "gri_distribution_selected": {
+    "305": 1343,
+    "302": 689,
+    "306": 292,
+    "303": 210,
+    "308": 107,
+    "301": 76,
+    "304": 33
+  }
+}
