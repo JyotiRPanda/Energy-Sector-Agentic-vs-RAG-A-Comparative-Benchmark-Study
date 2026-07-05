@@ -135,7 +135,6 @@ Energy_Sector_Agentic_vs_RAG/
 ├── requirements.txt                   # Python dependencies
 ├── pyproject.toml                     # Project metadata
 ├── .env.example                       # Configuration template
-├── .gitignore                         # Git ignore rules
 ├── Makefile                           # Build automation
 │
 ├── src/                               # Core implementation
