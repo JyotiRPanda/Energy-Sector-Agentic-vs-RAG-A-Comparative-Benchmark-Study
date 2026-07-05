@@ -1,0 +1,8 @@
+relative_path
+one-table/gri-qa_extra.csv
+one-table/gri-qa_rel.csv
+one-table/gri-qa_quant.csv
+one-table/gri-qa_multistep.csv
+multi-table/gri-qa_multitable2-rel.csv
+multi-table/gri-qa_multitable2-quant.csv
+multi-table/gri-qa_multitable2-multistep.csv
